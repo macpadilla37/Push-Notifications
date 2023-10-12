@@ -14,6 +14,7 @@
 		D4AE48E32AD7801100646E14 /* Push_NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE48E22AD7801100646E14 /* Push_NotificationsTests.swift */; };
 		D4AE48ED2AD7801200646E14 /* Push_NotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE48EC2AD7801200646E14 /* Push_NotificationsUITests.swift */; };
 		D4AE48EF2AD7801200646E14 /* Push_NotificationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE48EE2AD7801200646E14 /* Push_NotificationsUITestsLaunchTests.swift */; };
+		D4AE48FC2AD78F6600646E14 /* PushNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE48FB2AD78F6500646E14 /* PushNotificationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D4AE48E82AD7801200646E14 /* Push NotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Push NotificationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AE48EC2AD7801200646E14 /* Push_NotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push_NotificationsUITests.swift; sourceTree = "<group>"; };
 		D4AE48EE2AD7801200646E14 /* Push_NotificationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push_NotificationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4AE48FB2AD78F6500646E14 /* PushNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				D4AE48D02AD7800B00646E14 /* Push_NotificationsApp.swift */,
 				D4AE48D22AD7800B00646E14 /* ContentView.swift */,
+				D4AE48FB2AD78F6500646E14 /* PushNotificationService.swift */,
 				D4AE48D42AD7801100646E14 /* Assets.xcassets */,
 				D4AE48D62AD7801100646E14 /* Push_Notifications.entitlements */,
 				D4AE48D72AD7801100646E14 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4AE48FC2AD78F6600646E14 /* PushNotificationService.swift in Sources */,
 				D4AE48D32AD7800B00646E14 /* ContentView.swift in Sources */,
 				D4AE48D12AD7800B00646E14 /* Push_NotificationsApp.swift in Sources */,
 			);
@@ -417,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Push Notifications/Push_Notifications.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Push Notifications/Preview Content\"";
@@ -455,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Push Notifications/Push_Notifications.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Push Notifications/Preview Content\"";
